@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  font-size: 24px;
+  margin:25px 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid red;
+  transition: 0.4s;
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+  color:white;
+}
+
+.box{
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height:100px;
+  background-color: red;
+}
